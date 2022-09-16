@@ -29,7 +29,7 @@ bgimg=loadImage('940534.png')
 }
 function setup() {
   createCanvas(800,500);
-if(besttime=="undefined"||besttime==undefined||besttime==null||besttime==NaN){
+if(besttime=="undefined"||besttime==undefined||besttime=="null"||besttime==null||besttime==NaN||besttime=="NaN"){
   besttime=20
 }
  
